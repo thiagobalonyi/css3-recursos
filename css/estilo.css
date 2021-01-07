@@ -1,4 +1,4 @@
-/*Transições ***********/
+Transições **********
 #caixa {
     width: 300px;
     height: 300px;
@@ -13,10 +13,6 @@
 }
 
 
-
-
-
-/* Animações ******
 @keyframes animacao-caixa {
     from {
         background: red;
@@ -41,14 +37,11 @@
     animation-duration: 5s;
     animation-delay: 3s;
     animation-iteration-count: 2;
-    animation-direction: alternate;
-
-    E lembrar que animação precisa dos prefixos para todos os navegadores (W3 school)
-    pode fazer em uma linha vvvvvv
+    animation-direction: alternate;*/
 
     animation: animacao-caixa 5s 3s 4 alternate;
 }
-*/
+
 
 
 /* SOMBRAS
@@ -67,14 +60,14 @@
     /*text-shadow: 20px 20px black;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
 }
-*/
 
-/* Gradiante e trasparencia
+
+Gradiante e trasparencia
 #caixa {
     width: 300px;
     height: 300px;
-    /*background: url(../imagens/camera.png);
-    /*background: linear-gradient(to right, green, blue);
+    /*background: url(../imagens/camera.png);*/
+    /*background: linear-gradient(to right, green, blue);*/
     /*background: linear-gradient(45deg, blue, red, yellow);
     background: radial-gradient(red, blue, yellow);
 }
@@ -83,10 +76,10 @@
 #caixa h1 {
     background: rgba(255, 255,255, 0.5)
 }
-*/
 
 
-/* Border radius e box size
+
+ /*Border radius e box size
 
 #caixa1 {
     width: 300px;
@@ -97,12 +90,12 @@
     box-sizing: border-box;
 
 
-    /*-webkit-border-radius: 10px 50px 80px 100px;
+    -webkit-border-radius: 10px 50px 80px 100px;
     border-radius: 10px 50px 80px 100px;
 
-    Obs: Alguns navegadores não aceitam border radius e o box sizing, e precisa buscar o código no w3school*/
+    Obs: Alguns navegadores não aceitam border radius e o box sizing, e precisa buscar o código no w3school
 }
-/*
+
 #caixa2 {
     width: 300px;
     height: 300px;
@@ -119,5 +112,4 @@
     padding: 10px;
     margin: 10px;
     border-radius: 150px;
-}
-*/
+}*/
